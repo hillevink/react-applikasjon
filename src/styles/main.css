@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+section,
+article {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+main {
+  max-width: 80rem;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 3rem;
+  box-shadow: 0px 10px 10px rgba(221, 221, 221, 0.5);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+label {
+  padding: 0.5rem 0rem;
+}
+
+#title {
+  max-width: 50%;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+#content {
+  max-width: 100%;
+  border-radius: 0.3rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+  max-width: 8rem;
+  border: 0;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  font-weight: 60;
+  background-color: turquoise;
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding-left: 2rem;
+}
+
+article {
+  padding: 1rem;
+  box-shadow: 10px 10px 10px rgb(190, 247, 242, 0.5);
+  border-radius: 0.3rem;
+}
+
+h1 {
+  padding-left: 2rem;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding: 0.5rem 1rem;
+  background-color: turquoise;
+  border-radius: 0.3rem;
+  border: none;
+}
